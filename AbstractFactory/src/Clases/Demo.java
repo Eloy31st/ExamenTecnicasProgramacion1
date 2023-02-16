@@ -1,3 +1,5 @@
+package Clases;
+
 public class Demo {
     private static Cliente configureApplication() {
         Cliente app;

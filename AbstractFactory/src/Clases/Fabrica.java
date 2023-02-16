@@ -1,4 +1,6 @@
+package Clases;
+
 public interface Fabrica {
     Caja crearCaja();
-    Boton crearDialogo();
+    Boton crearBoton();
 }

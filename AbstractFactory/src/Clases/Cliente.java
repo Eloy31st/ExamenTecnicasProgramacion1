@@ -1,13 +1,16 @@
+package Clases;
+
 public class Cliente {
     private Caja caja;
-    private Boton dialogo;
+    private Boton boton;
     public Cliente(Fabrica fabrica) {
         caja = fabrica.crearCaja();
-        dialogo = fabrica.crearDialogo();
+        boton = fabrica.crearBoton();
     }
     public void mostrar() {
-        dialogo.mostrar();
+        boton.mostrar();
         caja.mostrar();
 
     }
+
 }
